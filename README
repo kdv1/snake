@@ -1,0 +1,13 @@
+Snake - port of classical game to Famicom (uncompleted)
+
+This is attempt to write a 4KB sized game for diy cartridge. The program 
+is run on hardware, but space is too limited to write complete game.
+
+Tools used:
+	NES Screen Tool - all graphics work
+	ASM6 - 6502 assembler
+
+This program includes some routines from neslib (NES hardware-dependent 
+functions by Shiru) - random number generator and unrle.
+
+Building for emulator on Windows: just run build.bat (asm6 must be in PATH).
